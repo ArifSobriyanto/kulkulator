@@ -11,10 +11,6 @@ function calculate() {
             case 'subtract':
                 result = num1 - num2;
                 break;
-        
-                case 'multiply':
-                    result = num1 * num2;
-                    break;
         default:
             result = "Error: Invalid operator!";
     }
